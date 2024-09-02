@@ -1,5 +1,5 @@
 
-# Simple two tier AWS network infrastructure by using Terraform
+# Two tier AWS network infrastructure by using Terraform
 
 
 
