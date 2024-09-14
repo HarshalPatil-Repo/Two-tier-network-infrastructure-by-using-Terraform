@@ -183,3 +183,4 @@ resource "aws_instance" "private_server" {
   }
   subnet_id = aws_subnet.private_subnet.id
 }
+
