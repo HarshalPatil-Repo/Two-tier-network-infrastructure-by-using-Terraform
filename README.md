@@ -35,14 +35,12 @@ terraform init
 ```bash
 terraform plan
 ```
-6. Give key pair name
-7. Run below command and again enter key-pair name and give approval, this will create planned infrastructure in AWS
+6. Edit your key-pair name in 'terraform.tfvars' file. Then run bewlo command, it will create planned resources in AWS
 ```bash
 terraform apply
 ```
-8. After successful resource creation add '.pem' extenstion in key name which is saved in local
-9. While connecting to instance change key permission using 'chmod 400 {key name}' if you are using Linux or MacOS
-10. To change key permission for Windows, follow this youtube video:
+7. While connecting to instance change key permission using 'chmod 400 {key name}' if you are using Linux or MacOS
+8. To change key permission for Windows, follow this youtube video:
 https://www.youtube.com/watch?v=OTwEfZP1nb8
 
 
