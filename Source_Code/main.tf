@@ -150,8 +150,6 @@ resource "tls_private_key" "rsa" {
   rsa_bits  = 4096
 }
 
-variable "key_name" {}
-
 resource "aws_key_pair" "TF_Key" {
   key_name   = var.key_name
   public_key = tls_private_key.rsa.public_key_openssh 
