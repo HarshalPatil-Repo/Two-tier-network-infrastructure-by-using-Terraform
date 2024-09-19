@@ -27,7 +27,7 @@
 1. Configure IAM user using AWS CLI
 2. Copy terraform code in one folder
 3. Open VS Code in that folder and open terminal in VS code
-4. Run command below command, this will download required provider plugins
+4. Run below command, this will download required provider plugins
 ```bash
 terraform init
 ```
