@@ -25,7 +25,7 @@
 ## Steps to run the code :
 
 1. Configure IAM user using AWS CLI
-2. Clone **Two-tier-network-infrastructure-by-using-Terraform** into your local
+2. Clone **Two-tier-network-infrastructure-by-using-Terraform** repository into your local
 4. Run below command, this will download required provider plugins
 ```bash
 terraform init
