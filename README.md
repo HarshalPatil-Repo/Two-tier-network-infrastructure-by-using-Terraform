@@ -16,13 +16,13 @@
 
 
 
-## This network infrastructure allows :
+## This network infrastructure allows:
 
 - Ingress SSH, HTTP, HTTPS and egress all traffic via internet gateway to EC2 instance in public subnet
 - Egress traffic to internet via NAT gateway from private subnet
 - Local traffic in VPC (10.10.0.0/16) via local routes
 
-## Steps to run the code :
+## Steps to run the code:
 
 1. Configure IAM user using AWS CLI
 2. Clone **Two-tier-network-infrastructure-by-using-Terraform** repository into your local
