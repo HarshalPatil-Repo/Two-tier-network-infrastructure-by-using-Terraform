@@ -12,7 +12,7 @@
 - Main and Custom Route Tables
 - Instance in public as well as private subnet
 - Security Group
-- Key-Pair
+- SSH Key-Pair
 
 
 
